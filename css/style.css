@@ -20,7 +20,7 @@ body{
 .login-container h2{
     margin-bottom: 20px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: black;
 }
 

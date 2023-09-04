@@ -6,6 +6,7 @@
         <title>Tela de Login</title>
         
         <link rel="stylesheet" href="./css/style.css">
+        <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
               
     </head>
 
@@ -14,17 +15,24 @@
 
         <div class="login-container">
             <h2>
-                Login
+                CADASTRE - SE
             </h2>
 
             <form>
                 <input type="text" placeholder="Usuario" required>
-                <input type="password" placeholder="Senha" required>
-                <button id="button" type="submit">Login</button>
+                <input id="senha"type="password" placeholder="Senha" required>
+                <input id="senhaComfirmada"type="password" placeholder="Confirme sua Senha" required>
+                <button id="button" type="submit">Cadastrar</button>
             </form>
             
         </div>
         
     </body>
+
+    <script>
+       $("#button").click(function () {
+        alert("CADASTRO REALIZADO COM SUCESSO")
+         });
+    </script>
 
 </html>
